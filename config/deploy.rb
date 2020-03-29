@@ -2,7 +2,7 @@
 lock "~> 3.12.1"
 
 set :application, "kot"
-set :repo_url, "git://github.com:rudydu/kot.git"
+set :repo_url, "git@github.com:rudydu/kot.git"
 
 # Deploy to the user's home directory
 set :deploy_to, "/home/deploy/#{fetch :application}"
