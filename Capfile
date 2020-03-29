@@ -43,3 +43,5 @@ require 'capistrano/rbenv'
 
 set :rbenv_type, :user
 set :rbenv_ruby, '2.7.0'
+
+require 'capistrano/linked_files'
