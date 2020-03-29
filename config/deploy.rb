@@ -14,7 +14,7 @@ set :keep_releases, 5
 
 
 set :linked_files, 'config/master.key'
-set :linked_files, 'config/credentials/production.key'
+# set :linked_files, 'config/credentials/production.key'
 
 # Optionally, you can symlink your database.yml and/or secrets.yml file from the shared directory during deploy
 # This is useful if you don't want to use ENV variables
